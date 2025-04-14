@@ -1,0 +1,157 @@
+body {
+    background-color: aliceblue;
+}
+
+#header {
+    position: relative;
+    height: 146px;
+    max-width: 707px;
+    width: 100%;
+    background-color: #323B4C;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.nama, .status {
+    font-family: 'Poppins', math;
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 330px;
+}
+
+.foto img{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 55px;
+    width: 160px;
+    height: 158px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    z-index: 10;
+}
+
+.page {
+    position: relative;
+    display: flex;
+    max-width: 707px;
+    width: 100%;
+    height: 1050px;
+    background-color: #fdfdfd;
+    margin: auto;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 274px;
+    height: 1050px;
+    background-color: #E4E4E4;
+}
+
+.kontak, .kemampuan, .bahasa {
+    font-family: 'Poppins', math;
+    padding: 15px;
+}
+
+.kontak {
+    margin-top: 80px;
+}
+
+.line-kontak, .line-kemampuan, .line-bahasa, .line-profil, .line-organisasi, .line-panitia, .line-pendidikan {
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin-top: -20px;
+}
+
+.line-profil, .line-organisasi, .line-panitia, .line-pendidikan {
+    width: 350px;
+}
+
+.phone, .email, .alamat, .linkedin {
+    font-size: 14px;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', math;
+    padding: 40px;
+}
+
+.profil {
+    margin-top: -20px;
+}
+
+.profil p {
+    text-align: justify;
+}
+
+.rohis-ketum h3, .rohis-anggota h3, .sos h3, .hology h3, .maulid h3, .sma h3 {
+    margin-top: 50px;
+}
+
+.sr-anggota p, .rohis-ketum p, .rohis-anggota p, .mtq p, .sos p, .hology p, .maulid p, .kuliah p, .sma p {
+    margin-top: -15px;
+}
+
+.sr-anggota h4, .rohis-ketum h4, .rohis-anggota h4, .mtq h4, .sos h4, .hology h4, .maulid h4, .kuliah h4, .sma h4 {
+    text-align: right;
+    margin-top: -60px;
+}
+
+.panitia h2, .pendidikan h2 {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .page {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-content, .right-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-content {
+        padding: 20px;
+    }
+
+    .line-profil, .line-organisasi, .line-panitia, .line-pendidikan {
+        width: 100%;
+    }
+
+    .foto {
+        position: static;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .foto img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nama, .status {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #header {
+        height: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
