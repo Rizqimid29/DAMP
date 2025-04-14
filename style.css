@@ -126,7 +126,7 @@ body {
     }
 
     .line-profil, .line-organisasi, .line-panitia, .line-pendidikan {
-        width: 100%;
+        margin-left: -1px;
     }
 
     .foto {
@@ -138,6 +138,9 @@ body {
     .foto img {
         width: 100px;
         height: 100px;
+        margin: auto;
+        margin-top: 120px;
+        margin-left: 135px;
     }
 
     .nama, .status {
@@ -149,6 +152,14 @@ body {
         height: auto;
         text-align: center;
         padding-bottom: 20px;
+
+    }
+
+    .sr-anggota h4, .rohis-ketum h4, .rohis-anggota h4, .mtq h4, .sos h4, .hology h4, .maulid h4, .kuliah h4, .sma h4 {
+        margin-right: 30px;
+    }
+    .profil p {
+        text-align: left;
     }
 }
 
